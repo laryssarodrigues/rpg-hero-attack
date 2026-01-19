@@ -4,6 +4,18 @@ public class Hero {
     int age;
     String type;
 
+    public Hero(String name, int age, String type) {
+        this.name = name;
+        this.age = age;
+        this.type = type;
+    }
+
+    public static void title() {
+        System.out.println("==================");
+        System.out.println(" SYSTEM OF HEROES");
+        System.out.println("==================");
+    }
+
     public void attack() {
         String atk;
 
