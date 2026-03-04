@@ -1,33 +1,49 @@
 # System of Heroes
 
-## Sobre o Projeto
+## About the Project
 
-Este projeto consiste em um sistema que cadastra diferentes tipos de heróis e simula seus ataques baseados em suas classes (tipos). Cada herói possui um nome, idade e tipo, e realiza um ataque específico de acordo com sua categoria.
+This project consists of a system that registers different types of heroes and simulates their attacks based on their classes (types). Each hero has a name, age, and type, and performs a specific attack according to their category.
 
-## Funcionalidades
+## Features
 
-- Cadastro de heróis com nome, idade e tipo
-- Diferentes tipos de heróis disponíveis:
-  - **Wizard** - Ataque com magia
-  - **Warrior** - Ataque com espada
-  - **Monk** - Ataque com artes marciais
-  - **Ninja** - Ataque com shuriken
-  - **Archer** - Ataque padrão (caso não identificado)
+- Hero registration with name, age, and type
+- Different types of heroes available:
+  - **Wizard** - Attack with magic
+  - **Warrior** - Attack with sword
+  - **Monk** - Attack with martial arts
+  - **Ninja** - Attack with shuriken
+  - **Archer** - Default attack (if type not identified)
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto é composto por duas classes principais:
+The project consists of two main classes:
 
 ### `Hero.java`
-Classe principal que define as propriedades e comportamentos dos heróis:
-- **Atributos**: name, age, type
-- **Métodos**: 
-  - `title()` - Exibe o título do sistema
-  - `attack()` - Determina e executa o ataque baseado no tipo do herói
+Main class that defines the properties and behaviors of heroes:
+- **Attributes**: name, age, type
+- **Methods**: 
+  - `title()` - Displays the system title
+  - `attack()` - Determines and executes the attack based on the hero's type
 
 ### `Main.java`
-Classe responsável por executar o programa:
-- Cria uma lista de heróis com diferentes tipos
-- Itera sobre os heróis exibindo suas informações e ataques
+Class responsible for running the program:
+- Creates a list of heroes with different types
+- Iterates through the heroes displaying their information and attacks
 
-## Exemplo de Uso
+## Usage Example
+\==================  
+&emsp;&nbsp; SYSTEM OF HEROES  
+\==================  
+-> Hero 1: Holly  
+Result: The wizard attacked using a magic.  
+-> Hero 2: Way  
+Result: The warrior attacked using a sword.  
+-> Hero 3: Poo  
+Result: The monk attacked using a martial arts.  
+-> Hero 4: Lynn  
+Result: The ninja attacked using a shuriken.  
+-> Hero 5: Klow  
+Result: The archer attacked using a arm.
+
+---
+Developed by Laryssa Rodrigues.
